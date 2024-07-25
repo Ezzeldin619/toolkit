@@ -19,14 +19,16 @@
     ],
     "baseUrl": "src",
     "paths": {
-      "@/*": ["/*"]
+      "@/*": ["*"],
+      "ui/*": ["components/ui/*"]
     }
   },
   "include": [
     "src ,next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "tailwind.config.js"
   ],
   "exclude": ["node_modules"]
 }

@@ -1,5 +1,10 @@
 import { Center } from "components/center";
+import { Button } from "ui/button";
 
 export default function Home() {
-  return <Center>Whatever</Center>;
+  return (
+    <Center>
+      <Button>Click Me</Button>
+    </Center>
+  );
 }
